@@ -1,10 +1,10 @@
 # slack-inviteviz
 
-slackのinvite関係をグラフ化
+slackのinvite関係をツリー状に可視化します
 
 ライブデモはこちら [https://slack-inviteviz-demo.knjcode.com](https://slack-inviteviz-demo.knjcode.com)
 
-![invitation graph sample](img/invitation_graph_sample.png)
+![invitation tree sample](img/invitation_tree_sample.png)
 
 ## セットアップ
 
@@ -33,17 +33,17 @@ Saved!
 
 __3. ブラウザで確認__
 
-invite関係をグラフ化しブラウザで開きます。
+invite関係をツリー状に可視化しブラウザで開きます。
 
 ```
 $ bundle exec rake server
 ```
 
-グラフが画面内に収まらない場合はブラウザ画面をズームアウトしてください。
+ツリーが画面内に収まらない場合はブラウザ画面をズームアウトしてください。
 
 ## 備考
 
-invite情報が無い(または取得できない)ためにグラフが分離する場合があります。
+invite情報が無い(または取得できない)ためにツリーが分離する場合があります。
 
 - Disabledのユーザがいる場合 (Disabledになったユーザを誰がinviteしたかという情報が取得できない)
 - ドメイン指定されたメールアドレスを使ってinviteされることなくにteamにjoinしたユーザがいる場合
