@@ -1,3 +1,4 @@
 .bundle/
 vendor/
 accepted_invites.json
+team_name.json

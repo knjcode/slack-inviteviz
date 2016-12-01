@@ -26,6 +26,9 @@ class Exporter
     email      = ask('Login email: ')
     password   = ask('Login password(hidden): ') { |q| q.echo = false }
 
+    team = { team: team_name }
+    File.write('team_name.json', team.to_json)
+
     invites_page_url = "https://#{team_name}.slack.com/admin/invites"
 
     page = agent.get(invites_page_url)

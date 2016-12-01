@@ -20,7 +20,7 @@ $ git clone https://github.com/knjcode/slack-inviteviz
 
 __2. Export history of invitations__
 
-Export history of invitations automatically from your slack team's [Accepted invitations](https://my.slack.com/admin/invites#accepted) page. And save it as `accepted_invites.json` in your current directory.
+Export history of invitations automatically from your slack team's [Accepted invitations](https://my.slack.com/admin/invites#accepted) page. And save it as `accepted_invites.json` in your current directory. And also save your slack team name as `team_name.json`.
 
 ```
 $ cd slack-inviteviz

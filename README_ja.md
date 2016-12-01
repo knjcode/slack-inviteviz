@@ -19,6 +19,7 @@ $ git clone https://github.com/knjcode/slack-inviteviz
 __2. invite履歴の取得__
 
 以下のようにスクリプトを実行することで、slackの [Accepted invitations](https://my.slack.com/admin/invites#accepted) ページからinvite履歴データを抽出し、抽出したデータをカレントディレクトリに `accepted_invites.json` という名前で保存します。
+あわせて、あなたのslackのteam名を `team_name.json` という名前で保存します。
 
 ```
 $ cd slack-inviteviz
