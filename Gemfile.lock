@@ -1,8 +1,9 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.4.0)
-    domain_name (0.5.20161021)
+    addressable (2.5.0)
+      public_suffix (~> 2.0, >= 2.0.2)
+    domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
     highline (1.7.8)
     http-cookie (1.0.3)
@@ -27,6 +28,7 @@ GEM
     nokogiri (1.6.8.1)
       mini_portile2 (~> 2.1.0)
     ntlm-http (0.1.1)
+    public_suffix (2.0.4)
     rake (11.3.0)
     unf (0.1.4)
       unf_ext
