@@ -25,7 +25,7 @@ Export history of invitations automatically from your slack team's [Accepted inv
 ```
 $ cd slack-inviteviz
 $ bundle install --path vendor/bundle
-$ bundle exec ruby export.rb
+$ bundle exec rake export
 Your slack team name(subdomain): xxxxxx
 Login email: xxxx@xxxx.xxx
 Login password(hidden): xxxxxxxxxx

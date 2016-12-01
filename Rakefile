@@ -1,5 +1,10 @@
 require 'launchy'
 
+desc 'Export history of invitations'
+task :export do
+  sh 'ruby export.rb'
+end
+
 desc 'Start a local server and open it in your browser'
 task :server do
   Thread.new do

@@ -24,7 +24,7 @@ __2. invite履歴の取得__
 ```
 $ cd slack-inviteviz
 $ bundle install --path vendor/bundle
-$ bundle exec ruby export.rb
+$ bundle exec rake export
 Your slack team name(subdomain): xxxxxx
 Login email: xxxx@xxxx.xxx
 Login password(hidden): xxxxxxxxxx
