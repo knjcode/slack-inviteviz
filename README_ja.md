@@ -23,6 +23,7 @@ __2. invite履歴の取得__
 
 ```
 $ cd slack-inviteviz
+$ gem install bundler
 $ bundle install --path vendor/bundle
 $ bundle exec rake export
 Your slack team name(subdomain): xxxxxx
