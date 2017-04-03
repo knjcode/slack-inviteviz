@@ -83,7 +83,7 @@ class Exporter
   end
 
   def save_json
-    accepted_invites = page.body.scan(/boot_data.accepted_invites = (.+?);/)
+    accepted_invites = page.body.scan(/boot_data.accepted_invites = (.+?\]);/)
     invites = JSON.parse(accepted_invites[0][0])
     reduced_invites = reduce_user_info(invites)
     File.write('accepted_invites.json', reduced_invites.to_json)
